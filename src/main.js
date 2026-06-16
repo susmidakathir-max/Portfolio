@@ -52,8 +52,47 @@ document.querySelector('#app').innerHTML = `
     <div class="card">MySQL</div>
   </div>
 </section>
+<section id="projects">
+    <h2>Projects</h2>
 
-<section id="projects"> <h2>Projects</h2> <div class="cards"> <div class="card"> <h3>Sales AI Dashboard</h3> <p> AI-powered sales analytics dashboard built using modern web technologies for data visualization and business insights. </p> <a href="https://github.com/susmidakathir-max/sales-ai-dashboard" target="_blank" class="project-link"> View Project → </a> </div> <div class="card"> <h3>Personal Portfolio Website</h3> <p> Designed and developed a responsive portfolio website to showcase projects, skills, and resume. </p> </div> <div class="card"> <h3>Mini Web Applications</h3> <p> Built beginner-friendly web applications using HTML, CSS, and JavaScript to strengthen frontend development skills. </p> </div> </div> </section>
+    <div class="cards">
+
+        <div class="card">
+            <h3>Sales AI Dashboard</h3>
+            <p>
+                Developed an AI-powered sales analytics dashboard using modern web technologies.
+                Features include interactive charts, sales performance tracking, and business insights.
+            </p>
+            <a href="https://github.com/susmidakathir-max/sales-ai-dashboard"
+               target="_blank"
+               class="project-link">
+               View Project →
+            </a>
+        </div>
+
+        <div class="card">
+            <h3>Personal Portfolio Website</h3>
+            <p>
+                Designed and developed a responsive portfolio website to showcase my projects,
+                technical skills, resume, and contact information.
+            </p>
+            <a href="https://portfolio-umber-delta-63.vercel.app/"
+               target="_blank"
+               class="project-link">
+               View Project →
+            </a>
+        </div>
+
+        <div class="card">
+            <h3>Mini Web Applications</h3>
+            <p>
+                Created beginner-friendly web applications using HTML, CSS, and JavaScript
+                to improve frontend development and problem-solving skills.
+            </p>
+        </div>
+
+    </div>
+</section>
 <section id="contact">
   <h2>Contact</h2>
   <p>Email: susmidakathir@gmail.com</p>
