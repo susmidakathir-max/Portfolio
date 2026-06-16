@@ -1,0 +1,142 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:Arial,sans-serif;
+}
+
+body{
+  background: linear-gradient(135deg,#041b15,#0b2e22,#071d17);
+  color:white;
+  font-family:'Segoe UI',sans-serif;
+}
+
+.navbar{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:20px 60px;
+  position:sticky;
+  top:0;
+  backdrop-filter:blur(15px);
+  background:rgba(255,255,255,0.05);
+  border-bottom:1px solid rgba(0,255,170,0.2);
+}
+
+.navbar ul{
+  display:flex;
+  gap:20px;
+  list-style:none;
+}
+
+.navbar a{
+  color:white;
+  text-decoration:none;
+}
+
+.hero{
+  min-height:90vh;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+}
+.hero h1{
+  font-size:4rem;
+  margin-top:20px;
+  background:linear-gradient(
+    to right,
+    #00ff99,
+    #00ffaa,
+    #7dffcf
+  );
+  -webkit-background-clip:text;
+  color:transparent;
+}
+button{
+  margin-top:20px;
+  padding:15px 35px;
+  border:none;
+  border-radius:30px;
+  background:#00ff99;
+  color:black;
+  font-weight:bold;
+  cursor:pointer;
+  transition:.3s;
+}
+
+button:hover{
+  transform:translateY(-5px);
+  box-shadow:0 0 25px #00ff99;
+}
+
+.profile-img{
+  width:220px;
+  height:220px;
+  border-radius:50%;
+  object-fit:cover;
+  border:4px solid #00ff99;
+  box-shadow:
+  0 0 20px #00ff99,
+  0 0 50px #00ff99;
+}
+
+.cards{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+  gap:10px;
+  margin-top:20px;
+}
+
+.card{
+  background:rgba(255,255,255,0.05);
+  backdrop-filter:blur(12px);
+  border:1px solid rgba(0,255,170,0.2);
+  border-radius:20px;
+  padding:25px;
+  transition:.4s;
+}
+
+.card:hover{
+  transform:translateY(-10px);
+  box-shadow:0 0 25px rgba(0,255,170,0.5);
+}
+
+section{
+  padding:30px 60px;
+}
+p{
+  line-height:1.6;
+}
+.hero h2{
+  margin-bottom: 20px;
+}
+
+.hero p{
+  margin-top: 20px;
+}
+h2{
+  margin-bottom: 20px;
+}
+.btn-group{
+  display:flex;
+  justify-content:center;
+  gap:15px;
+  margin-top:25px;
+}
+
+.SUSMIDA_RESUME-btn{
+  text-decoration:none;
+  background:#00ff99;
+  color:black;
+  padding:12px 25px;
+  border-radius:25px;
+  font-weight:bold;
+  transition:0.3s;
+}
+
+.SUSMIDA_RESUME-btn:hover{
+  transform:translateY(-3px);
+  box-shadow:0 0 20px #00ff99;
+}
