@@ -56,6 +56,16 @@ document.querySelector('#app').innerHTML = `
     <h2>Projects</h2>
 
     <div class="cards">
+         <div class="card">
+        <h3>Mini Web Applications</h3>
+        <p>
+        Created beginner-friendly web applications using HTML, CSS, and JavaScript
+        </p>
+
+        <a href="https://susmidakathir-max.github.io/responsive-landing-page/" target="_blank">
+        View Live Project
+        </a>
+        </div>
 
         <div class="card">
             <h3>Sales AI Dashboard</h3>
@@ -83,14 +93,7 @@ document.querySelector('#app').innerHTML = `
             </a>
         </div>
 
-        <div class="card">
-            <h3>Mini Web Applications</h3>
-            <p>
-                Created beginner-friendly web applications using HTML, CSS, and JavaScript
-                to improve frontend development and problem-solving skills.
-            </p>
-        </div>
-
+      
     </div>
 </section>
 <section id="contact">
