@@ -54,6 +54,17 @@ document.querySelector('#app').innerHTML = `
 </section>
 <section id="projects">
     <h2>Projects</h2>
+    
+    <div class="card">
+      <h3>Expense Tracker Web Application</h3>
+      <p>
+         Developed a full-stack expense management application using Python, Flask, HTML, CSS, and SQLite to track and manage daily expenses.
+      </p>
+
+       <a href="https://expense-tracker-6oxb.onrender.com/" target="_blank">
+        View Live Project
+      </a>
+    </div>
 
     <div class="cards">
          <div class="card">
